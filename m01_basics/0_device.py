@@ -25,3 +25,4 @@ pprint(device)
 pprint("print using loop ")
 for key,value in device.items():
     print(f"{key:>16s} : {value}")
+

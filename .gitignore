@@ -1,0 +1,7 @@
+# .gitignore
+venv/
+.env/
+env/
+.venv/
+ENV/
+m01_basics/basic
