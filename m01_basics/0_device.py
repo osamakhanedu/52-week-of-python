@@ -11,18 +11,20 @@ device = {
     "ip": "10.1.11"
 }
 
-# print 
-print("=== Simple === ")
+# simple print  print
+print("===== Simple =====")
 print(device)
 print(device['model'])
+print()
 
 
 # pp 
-print("=== prety pring === ")
+print("===== pretty print =====")
 pprint(device)
+print()
 
 # use loop to format 
-pprint("print using loop ")
+print("===== custom print using f string  ==== ")
 for key,value in device.items():
     print(f"{key:>16s} : {value}")
 
