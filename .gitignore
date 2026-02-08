@@ -5,3 +5,5 @@ env/
 .venv/
 ENV/
 m01_basics/basic
+
+.idea
